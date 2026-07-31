@@ -1,0 +1,10 @@
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+/ai-output-validator
+/ai-output-validator.exe
+build/bin/
+frontend/dist/
+frontend/node_modules/
+/ai-output-validator-*.zip
