@@ -8,13 +8,17 @@ acceptance_criteria（受け入れ条件）を定義したテストケースに�
 本製品自身はどのAIプロバイダーも呼び出さない。外部システム（CI・ai-scheduler・独自スクリプト等）
 がAIを実行し、その出力をこの製品にPOSTして検証結果を受け取る、という構成。
 
-## 現在のステータス: Phase 1-2（ルールエンジン・CRUD API・CLI）完了
+## 現在のステータス: v0.1.0 リリース済み
 
 - [x] Phase 0: プロジェクト立ち上げ
 - [x] Phase 1: データモデル・ルールエンジン・CRUD API
 - [x] Phase 2: CLI（`ovcli`、CI/CD組み込み用）
-- [ ] Phase 3: Wails + Vue3 UI
-- [ ] Phase 4: 仕上げ・署名・配布・LP
+- [x] Phase 3: Wails + Vue3 UI
+- [x] Phase 4: 仕上げ・署名・配布・LP
+
+macOSアプリ（署名・公証済み）は [GitHub Releases](https://github.com/chankei613/ai-output-validator/releases) から、
+ランディングページは https://ai-output-validator.vercel.app/ から入手できる。
+アプリ内のHelpタブに使い方の説明がある。
 
 ## 使い方（開発用ヘッドレスサーバー）
 
